@@ -8,6 +8,7 @@
 
 #import "PhotosTableViewController.h"
 #import "PWTabBarController.h"
+#import "PWImageViewController.h"
 #import <MaxLeap/MaxLeap.h>
 #import "PWPhotoCell.h"
 
@@ -134,6 +135,23 @@
     [cell configureWithPhoto:photo];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    PWPhotoCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    // Create image info
+    PWImageInfo *imageInfo = [[PWImageInfo alloc] init];
+    imageInfo.image = cell.photoView.image;
+    imageInfo.referenceRect = cell.photoView.frame;
+    imageInfo.referenceView = cell.photoView.superview;
+    imageInfo.referenceContentMode = cell.photoView.contentMode;
+    imageInfo.referenceCornerRadius = cell.photoView.layer.cornerRadius;
+    
+    [PWImageViewController displayWithImageInfo:imageInfo fromViewController:self];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 /*

@@ -11,6 +11,8 @@
 
 @interface PWPhotoCell : UITableViewCell
 
+@property (nonatomic, readonly) UIImageView *photoView;
+
 - (void)configureWithPhoto:(MLObject *)photo;
 
 @end

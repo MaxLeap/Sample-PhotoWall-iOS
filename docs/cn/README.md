@@ -15,8 +15,8 @@
 
 ## 效果截图
 
-![](docs/images/1.jpg)
-![](docs/images/2.jpg)
+![](../images/1.jpg)
+![](../images/2.jpg)
 
 ## 如何运行
 

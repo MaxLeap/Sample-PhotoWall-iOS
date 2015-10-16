@@ -7,6 +7,7 @@
 //
 
 #import "PhotosTableViewController.h"
+#import "PWTabBarController.h"
 #import <MaxLeap/MaxLeap.h>
 #import "PWPhotoCell.h"
 
@@ -24,8 +25,8 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
 //     self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.137f green:0.137f blue:0.184f alpha:1.00f];
-    self.navigationController.navigationBar.titleTextAttributes = @{NSFontAttributeName:[UIFont fontWithName:@"BradleyHandITCTT-Bold" size:24], NSForegroundColorAttributeName:[UIColor whiteColor]};
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Sign Out" style:UIBarButtonItemStyleBordered target:self action:@selector(signOut)];
     
     [self.tableView registerClass:[PWPhotoCell class] forCellReuseIdentifier:@"PhotoCell"];
     
@@ -39,6 +40,11 @@
     [super viewWillAppear:animated];
     
     [self refresh];
+}
+
+- (void)signOut {
+    [MLUser logOut];
+    [(PWTabBarController *)self.tabBarController presentLoginViewControllerAnimated:YES];
 }
 
 - (void)showError:(NSError *)error {

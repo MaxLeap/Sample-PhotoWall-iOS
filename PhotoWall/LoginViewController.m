@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "SignUpViewController.h"
+#import "SVProgressHUD.h"
 #import "NSString+emailValidation.h"
 #import <MaxLeap/MaxLeap.h>
 
@@ -60,7 +61,10 @@
         return;
     }
     
+    [SVProgressHUD show];
+    
     [MLUser logInWithUsernameInBackground:username password:password block:^(MLUser *user, NSError *error) {
+        [SVProgressHUD dismiss];
         if (user) {
             NSLog(@"user: %@, isNew: %d", user, user.isNew);
             [self dismissViewControllerAnimated:YES completion:nil];

@@ -8,6 +8,7 @@
 
 #import "PWPhotoEditViewController.h"
 #import "UIImage+Resize.h"
+#import "SVProgressHUD.h"
 #import <MaxLeap/MaxLeap.h>
 
 @interface PWPhotoEditViewController ()
@@ -122,6 +123,7 @@
 }
 
 - (void)postImage {
+    [SVProgressHUD show];
     // Request a background execution task to allow us to finish uploading the photo even if the app is backgrounded
     self.bgTaskId = [[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler:^{
         [[UIApplication sharedApplication] endBackgroundTask:self.bgTaskId];
@@ -131,6 +133,7 @@
     
     [self getCurrentLocationAndImageFileRepresentationWithCompletion:^(MLGeoPoint *geoPoint, MLFile *imageFile, NSError *error) {
         if (error) {
+            [SVProgressHUD dismiss];
             [self showError:error];
             [[UIApplication sharedApplication] endBackgroundTask:self.bgTaskId];
         } else {
@@ -141,6 +144,7 @@
             photo[@"location"] = geoPoint;
             photo[@"image"] = imageFile;
             [photo saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+                [SVProgressHUD dismiss];
                 if (succeeded) {
                     [self dismissViewControllerAnimated:YES completion:nil];
                 } else {

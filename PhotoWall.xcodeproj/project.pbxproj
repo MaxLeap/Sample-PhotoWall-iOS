@@ -26,6 +26,10 @@
 		9D3CCE8D1BCE4063004C2B1A /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE871BCE4063004C2B1A /* UIImage+Resize.m */; settings = {ASSET_TAGS = (); }; };
 		9D3CCE8E1BCE4063004C2B1A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE891BCE4063004C2B1A /* UIImage+RoundedCorner.m */; settings = {ASSET_TAGS = (); }; };
 		9D3CCE941BCF3F8B004C2B1A /* PWPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE931BCF3F8B004C2B1A /* PWPhotoCell.m */; settings = {ASSET_TAGS = (); }; };
+		9D47F1751BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F16E1BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m */; settings = {ASSET_TAGS = (); }; };
+		9D47F1761BD0A6FD007CCF29 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D47F1701BD0A6FD007CCF29 /* SVProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		9D47F1771BD0A6FD007CCF29 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F1721BD0A6FD007CCF29 /* SVProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		9D47F1781BD0A6FD007CCF29 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F1741BD0A6FD007CCF29 /* SVRadialGradientLayer.m */; settings = {ASSET_TAGS = (); }; };
 		9DA5C8391BCF5C1C009862AA /* PWPasswordResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5C8381BCF5C1C009862AA /* PWPasswordResetViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9DA5C83F1BCF6117009862AA /* NSString+emailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5C83E1BCF6117009862AA /* NSString+emailValidation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -64,6 +68,13 @@
 		9D3CCE891BCE4063004C2B1A /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		9D3CCE921BCF3F8B004C2B1A /* PWPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPhotoCell.h; sourceTree = "<group>"; };
 		9D3CCE931BCF3F8B004C2B1A /* PWPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPhotoCell.m; sourceTree = "<group>"; };
+		9D47F16D1BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		9D47F16E1BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9D47F1701BD0A6FD007CCF29 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9D47F1711BD0A6FD007CCF29 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9D47F1721BD0A6FD007CCF29 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		9D47F1731BD0A6FD007CCF29 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		9D47F1741BD0A6FD007CCF29 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		9DA5C8371BCF5C1C009862AA /* PWPasswordResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPasswordResetViewController.h; sourceTree = "<group>"; };
 		9DA5C8381BCF5C1C009862AA /* PWPasswordResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPasswordResetViewController.m; sourceTree = "<group>"; };
 		9DA5C83D1BCF6117009862AA /* NSString+emailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+emailValidation.h"; sourceTree = "<group>"; };
@@ -106,6 +117,7 @@
 		9D3CCE4C1BCDEEC3004C2B1A /* PhotoWall */ = {
 			isa = PBXGroup;
 			children = (
+				9D47F16C1BD0A6FD007CCF29 /* SVProgressHUD */,
 				9D3CCE811BCE4063004C2B1A /* UIImage-Categories */,
 				9D3CCE501BCDEEC3004C2B1A /* AppDelegate.h */,
 				9D3CCE511BCDEEC3004C2B1A /* AppDelegate.m */,
@@ -119,17 +131,17 @@
 				9DA5C8381BCF5C1C009862AA /* PWPasswordResetViewController.m */,
 				9D3CCE781BCE042C004C2B1A /* PhotosTableViewController.h */,
 				9D3CCE791BCE042C004C2B1A /* PhotosTableViewController.m */,
-				9D3CCE561BCDEEC3004C2B1A /* Main.storyboard */,
-				9D3CCE591BCDEEC3004C2B1A /* Assets.xcassets */,
-				9D3CCE5B1BCDEEC3004C2B1A /* LaunchScreen.storyboard */,
-				9D3CCE5E1BCDEEC3004C2B1A /* Info.plist */,
-				9D3CCE4D1BCDEEC3004C2B1A /* Supporting Files */,
 				9D3CCE7B1BCE3750004C2B1A /* PWPhotoEditViewController.h */,
 				9D3CCE7C1BCE3750004C2B1A /* PWPhotoEditViewController.m */,
 				9D3CCE921BCF3F8B004C2B1A /* PWPhotoCell.h */,
 				9D3CCE931BCF3F8B004C2B1A /* PWPhotoCell.m */,
 				9DA5C83D1BCF6117009862AA /* NSString+emailValidation.h */,
 				9DA5C83E1BCF6117009862AA /* NSString+emailValidation.m */,
+				9D3CCE561BCDEEC3004C2B1A /* Main.storyboard */,
+				9D3CCE591BCDEEC3004C2B1A /* Assets.xcassets */,
+				9D3CCE5B1BCDEEC3004C2B1A /* LaunchScreen.storyboard */,
+				9D3CCE5E1BCDEEC3004C2B1A /* Info.plist */,
+				9D3CCE4D1BCDEEC3004C2B1A /* Supporting Files */,
 			);
 			path = PhotoWall;
 			sourceTree = "<group>";
@@ -167,6 +179,20 @@
 				9D3CCE891BCE4063004C2B1A /* UIImage+RoundedCorner.m */,
 			);
 			path = "UIImage-Categories";
+			sourceTree = "<group>";
+		};
+		9D47F16C1BD0A6FD007CCF29 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9D47F16D1BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.h */,
+				9D47F16E1BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m */,
+				9D47F1701BD0A6FD007CCF29 /* SVProgressHUD.bundle */,
+				9D47F1711BD0A6FD007CCF29 /* SVProgressHUD.h */,
+				9D47F1721BD0A6FD007CCF29 /* SVProgressHUD.m */,
+				9D47F1731BD0A6FD007CCF29 /* SVRadialGradientLayer.h */,
+				9D47F1741BD0A6FD007CCF29 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +256,7 @@
 				9D3CCE5D1BCDEEC3004C2B1A /* LaunchScreen.storyboard in Resources */,
 				9D3CCE5A1BCDEEC3004C2B1A /* Assets.xcassets in Resources */,
 				9D3CCE581BCDEEC3004C2B1A /* Main.storyboard in Resources */,
+				9D47F1761BD0A6FD007CCF29 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +269,12 @@
 			files = (
 				9D3CCE941BCF3F8B004C2B1A /* PWPhotoCell.m in Sources */,
 				9D3CCE521BCDEEC3004C2B1A /* AppDelegate.m in Sources */,
+				9D47F1771BD0A6FD007CCF29 /* SVProgressHUD.m in Sources */,
+				9D47F1781BD0A6FD007CCF29 /* SVRadialGradientLayer.m in Sources */,
 				9DA5C8391BCF5C1C009862AA /* PWPasswordResetViewController.m in Sources */,
 				9D3CCE771BCE0345004C2B1A /* SignUpViewController.m in Sources */,
 				9D3CCE8C1BCE4063004C2B1A /* UIImage+Alpha.m in Sources */,
+				9D47F1751BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m in Sources */,
 				9D3CCE7A1BCE042C004C2B1A /* PhotosTableViewController.m in Sources */,
 				9D3CCE7D1BCE3750004C2B1A /* PWPhotoEditViewController.m in Sources */,
 				9D3CCE8E1BCE4063004C2B1A /* UIImage+RoundedCorner.m in Sources */,

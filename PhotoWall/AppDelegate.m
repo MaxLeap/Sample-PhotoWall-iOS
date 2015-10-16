@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SVProgressHUD.h"
 #import <MaxLeap/MaxLeap.h>
 
 @interface AppDelegate ()
@@ -19,12 +20,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [MaxLeap setApplicationId:@"561c74ada5ff7f00018300bc" clientKey:@"M2dJS01MdmRXZ2x1YkhLdWRhV3ZDQQ" site:MLSiteCN];
-//    [MLUser logOut];
     
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13], NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13], NSForegroundColorAttributeName:[UIColor greenColor]} forState:UIControlStateSelected];
+    [self setUIAppearence];
     
     return YES;
+}
+
+- (void)setUIAppearence {
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16], NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16], NSForegroundColorAttributeName:[UIColor greenColor]} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitlePositionAdjustment:UIOffsetMake(0, -12)];
+    
+    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:0.137f green:0.137f blue:0.184f alpha:1.00f];
+    [UINavigationBar appearance].titleTextAttributes = @{NSFontAttributeName:[UIFont fontWithName:@"BradleyHandITCTT-Bold" size:24], NSForegroundColorAttributeName:[UIColor whiteColor]};
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

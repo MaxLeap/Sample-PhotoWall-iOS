@@ -36,8 +36,8 @@ UIImagePickerControllerDelegate>
     }
 }
 
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
+- (BOOL)prefersStatusBarHidden {
+    return NO;
 }
 
 - (void)presentLoginViewControllerAnimated:(BOOL)animated {

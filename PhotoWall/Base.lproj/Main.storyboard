@@ -73,6 +73,7 @@
         <scene sceneID="GpD-rx-t7P">
             <objects>
                 <tabBarController id="Fc9-ZU-vxX" customClass="PWTabBarController" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="SCG-JR-isQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -340,6 +341,7 @@
         <scene sceneID="wYE-z9-h3h">
             <objects>
                 <navigationController definesPresentationContext="YES" id="gIR-0F-X3b" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ARM-lN-hdt">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

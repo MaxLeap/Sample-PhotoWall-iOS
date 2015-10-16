@@ -8,6 +8,7 @@
 
 #import "SignUpViewController.h"
 #import "NSString+emailValidation.h"
+#import "SVProgressHUD.h"
 #import <MaxLeap/MaxLeap.h>
 
 @implementation SignUpViewController
@@ -83,11 +84,14 @@
         return;
     }
     
+    [SVProgressHUD show];
+    
     MLUser *user = [MLUser user];
     user.username = self.usernameTextField.text;
     user.password = self.passwordTextField.text;
     user.email = self.usernameTextField.text;
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        [SVProgressHUD dismiss];
         if (error) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Failed" message:[NSString stringWithFormat:@"Code: %ld\n%@", (long)error.code, error.localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
             [alert show];

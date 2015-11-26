@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [MaxLeap setApplicationId:@"561c74ada5ff7f00018300bc" clientKey:@"M2dJS01MdmRXZ2x1YkhLdWRhV3ZDQQ" site:MLSiteCN];
+    [MaxLeap setApplicationId:@"56567d14a5ff7f00019ee642" clientKey:@"OVNLNU90SEk5aWhnZlNvYmVoa28zUQ" site:MLSiteCN];
     
     [self setUIAppearence];
     

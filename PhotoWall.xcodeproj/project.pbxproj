@@ -12,27 +12,27 @@
 		9D3CCE581BCDEEC3004C2B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CCE561BCDEEC3004C2B1A /* Main.storyboard */; };
 		9D3CCE5A1BCDEEC3004C2B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CCE591BCDEEC3004C2B1A /* Assets.xcassets */; };
 		9D3CCE5D1BCDEEC3004C2B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CCE5B1BCDEEC3004C2B1A /* LaunchScreen.storyboard */; };
-		9D3CCE661BCDF377004C2B1A /* MaxLeap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3CCE651BCDF377004C2B1A /* MaxLeap.framework */; settings = {ASSET_TAGS = (); }; };
+		9D3CCE661BCDF377004C2B1A /* MaxLeap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3CCE651BCDF377004C2B1A /* MaxLeap.framework */; };
 		9D3CCE681BCDF389004C2B1A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3CCE671BCDF389004C2B1A /* CoreTelephony.framework */; };
 		9D3CCE6A1BCDF395004C2B1A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3CCE691BCDF395004C2B1A /* MobileCoreServices.framework */; };
 		9D3CCE6C1BCDF39C004C2B1A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3CCE6B1BCDF39C004C2B1A /* SystemConfiguration.framework */; };
 		9D3CCE6E1BCDF3A0004C2B1A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3CCE6D1BCDF3A0004C2B1A /* libsqlite3.tbd */; };
-		9D3CCE711BCDFD5D004C2B1A /* PWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE701BCDFD5D004C2B1A /* PWTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		9D3CCE761BCE0345004C2B1A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE731BCE0345004C2B1A /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9D3CCE771BCE0345004C2B1A /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE751BCE0345004C2B1A /* SignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9D3CCE7A1BCE042C004C2B1A /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE791BCE042C004C2B1A /* PhotosTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9D3CCE7D1BCE3750004C2B1A /* PWPhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE7C1BCE3750004C2B1A /* PWPhotoEditViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9D3CCE8C1BCE4063004C2B1A /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE851BCE4063004C2B1A /* UIImage+Alpha.m */; settings = {ASSET_TAGS = (); }; };
-		9D3CCE8D1BCE4063004C2B1A /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE871BCE4063004C2B1A /* UIImage+Resize.m */; settings = {ASSET_TAGS = (); }; };
-		9D3CCE8E1BCE4063004C2B1A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE891BCE4063004C2B1A /* UIImage+RoundedCorner.m */; settings = {ASSET_TAGS = (); }; };
-		9D3CCE941BCF3F8B004C2B1A /* PWPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE931BCF3F8B004C2B1A /* PWPhotoCell.m */; settings = {ASSET_TAGS = (); }; };
-		9D47F1751BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F16E1BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m */; settings = {ASSET_TAGS = (); }; };
-		9D47F1761BD0A6FD007CCF29 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D47F1701BD0A6FD007CCF29 /* SVProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
-		9D47F1771BD0A6FD007CCF29 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F1721BD0A6FD007CCF29 /* SVProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
-		9D47F1781BD0A6FD007CCF29 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F1741BD0A6FD007CCF29 /* SVRadialGradientLayer.m */; settings = {ASSET_TAGS = (); }; };
-		9D47F17B1BD0AF23007CCF29 /* PWImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F17A1BD0AF23007CCF29 /* PWImageViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9DA5C8391BCF5C1C009862AA /* PWPasswordResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5C8381BCF5C1C009862AA /* PWPasswordResetViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9DA5C83F1BCF6117009862AA /* NSString+emailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5C83E1BCF6117009862AA /* NSString+emailValidation.m */; settings = {ASSET_TAGS = (); }; };
+		9D3CCE711BCDFD5D004C2B1A /* PWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE701BCDFD5D004C2B1A /* PWTabBarController.m */; };
+		9D3CCE761BCE0345004C2B1A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE731BCE0345004C2B1A /* LoginViewController.m */; };
+		9D3CCE771BCE0345004C2B1A /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE751BCE0345004C2B1A /* SignUpViewController.m */; };
+		9D3CCE7A1BCE042C004C2B1A /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE791BCE042C004C2B1A /* PhotosTableViewController.m */; };
+		9D3CCE7D1BCE3750004C2B1A /* PWPhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE7C1BCE3750004C2B1A /* PWPhotoEditViewController.m */; };
+		9D3CCE8C1BCE4063004C2B1A /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE851BCE4063004C2B1A /* UIImage+Alpha.m */; };
+		9D3CCE8D1BCE4063004C2B1A /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE871BCE4063004C2B1A /* UIImage+Resize.m */; };
+		9D3CCE8E1BCE4063004C2B1A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE891BCE4063004C2B1A /* UIImage+RoundedCorner.m */; };
+		9D3CCE941BCF3F8B004C2B1A /* PWPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CCE931BCF3F8B004C2B1A /* PWPhotoCell.m */; };
+		9D47F1751BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F16E1BD0A6FD007CCF29 /* SVIndefiniteAnimatedView.m */; };
+		9D47F1761BD0A6FD007CCF29 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D47F1701BD0A6FD007CCF29 /* SVProgressHUD.bundle */; };
+		9D47F1771BD0A6FD007CCF29 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F1721BD0A6FD007CCF29 /* SVProgressHUD.m */; };
+		9D47F1781BD0A6FD007CCF29 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F1741BD0A6FD007CCF29 /* SVRadialGradientLayer.m */; };
+		9D47F17B1BD0AF23007CCF29 /* PWImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47F17A1BD0AF23007CCF29 /* PWImageViewController.m */; };
+		9DA5C8391BCF5C1C009862AA /* PWPasswordResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5C8381BCF5C1C009862AA /* PWPasswordResetViewController.m */; };
+		9DA5C83F1BCF6117009862AA /* NSString+emailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5C83E1BCF6117009862AA /* NSString+emailValidation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +78,7 @@
 		9D47F1741BD0A6FD007CCF29 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		9D47F1791BD0AF23007CCF29 /* PWImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWImageViewController.h; sourceTree = "<group>"; };
 		9D47F17A1BD0AF23007CCF29 /* PWImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWImageViewController.m; sourceTree = "<group>"; };
+		9D681CC71DB8E12D0035916A /* PhotoWall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoWall.entitlements; sourceTree = "<group>"; };
 		9DA5C8371BCF5C1C009862AA /* PWPasswordResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPasswordResetViewController.h; sourceTree = "<group>"; };
 		9DA5C8381BCF5C1C009862AA /* PWPasswordResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPasswordResetViewController.m; sourceTree = "<group>"; };
 		9DA5C83D1BCF6117009862AA /* NSString+emailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+emailValidation.h"; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 		9D3CCE4C1BCDEEC3004C2B1A /* PhotoWall */ = {
 			isa = PBXGroup;
 			children = (
+				9D681CC71DB8E12D0035916A /* PhotoWall.entitlements */,
 				9D47F16C1BD0A6FD007CCF29 /* SVProgressHUD */,
 				9D3CCE811BCE4063004C2B1A /* UIImage-Categories */,
 				9D3CCE501BCDEEC3004C2B1A /* AppDelegate.h */,
@@ -226,11 +228,16 @@
 		9D3CCE421BCDEEC3004C2B1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = leap;
 				TargetAttributes = {
 					9D3CCE491BCDEEC3004C2B1A = {
 						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -326,8 +333,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -370,8 +379,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -400,13 +411,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_ENTITLEMENTS = PhotoWall/PhotoWall.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = PhotoWall/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = as.leap.PhotoWall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,13 +432,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_ENTITLEMENTS = PhotoWall/PhotoWall.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = PhotoWall/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = as.leap.PhotoWall;
 				PRODUCT_NAME = "$(TARGET_NAME)";

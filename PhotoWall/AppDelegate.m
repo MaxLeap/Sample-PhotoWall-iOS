@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-#error Replace appId and clientKey with your own
+#warning Replace appId and clientKey with your own
     [MaxLeap setApplicationId:@"56567d14a5ff7f00019ee642" clientKey:@"OVNLNU90SEk5aWhnZlNvYmVoa28zUQ" site:MLSiteCN];
     
     [self setUIAppearence];
